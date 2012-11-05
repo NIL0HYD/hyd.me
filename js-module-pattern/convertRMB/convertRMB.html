@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>convertRMBUppercase</title>
+<script type="text/javascript" src="/static/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="/convertRMB/jquery.convertRMB.js"></script>
+<script type="text/javascript">
+function convertRMB() {
+	$("#elInput").convertRMBUppercase("elOutput");
+}
+$(function() {
+	convertRMB();
+});
+</script>
+</head>
+<body>
+输入：<input type="text" id="elInput" name="elInput" value="51437848682.05"></input><br />
+输出：<input type="text" id="elOutput" name="elOutput" size="100"></input><br />
+<input type="button" value="转换" onclick="convertRMB();" />
+</body>
+</html>

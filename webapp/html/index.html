@@ -1,0 +1,109 @@
+{{define "content"}}
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>首页 | NIL0HYD</title>
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/static/favicon.ico">
+</head>
+<body>
+
+{{template "header"}}
+
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+          <a href="/" class="brand">治学的三种境界</a>
+          <ul class="nav">
+             <li class="divider-vertical"></li>
+            <li>
+              <a href="http://zhidao.baidu.com/question/1448132.html" target="_blank">
+                <i class="icon-book"></i>1. 昨夜西风凋碧树，独上高楼，望尽天涯路。</a>
+            </li>
+             <li class="divider-vertical"></li>
+            <li>
+              <a href="http://zhidao.baidu.com/question/8222552.html" target="_blank">
+                <i class="icon-barcode"></i>2. 衣带渐宽终不悔，为伊消得人憔悴。</a>
+            </li>
+             <li class="divider-vertical"></li>
+            <li>
+              <a href="http://zhidao.baidu.com/question/14777005.html" target="_blank">
+                <i class="icon-qrcode"></i>3. 众里寻他千百度，蓦然回首，那人却在灯火阑珊处。</a>
+            </li>
+
+            {{if .}}
+            <li class="divider-vertical">
+            {{ .Name}}, 您已经登录成功！
+            <a href="/logout">退出</a>
+            </li>
+            {{end}}
+          </ul>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="span5">
+      <h2>Heading</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <p><a class="btn" href="#">View details &raquo;</a></p>
+    </div>
+    <div class="span6 offset1">
+      <div id="myCarousel" class="carousel">
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="active item">
+            <img src="/static/img/best.png" alt="best">
+            <div  class="carousel-caption">
+              <h4>Hello, world!</h4>
+              <p>
+                This is a template for a simple marketing or informational website.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="/static/img/ladder.png" alt="best">
+            <div  class="carousel-caption">
+            <h4>Good Morning!</h4>
+            </div>
+          </div>
+          <div class="item">
+             <div  class="carousel-caption">
+            <h4>Google and Golang.</h4>
+              <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+              </p>
+            </div>
+            <img src="/static/img/best.png" alt="best">
+          </div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div>
+
+    </div>
+  </div>
+  
+</div>
+
+{{template "footer"}}
+  <!-- use seajs -->
+  <script type="text/javascript" src="/static/js/sea.js" id="seajsnode" data-main="/static/js/init.js"></script>
+  <!--
+  <script type="text/javascript">
+  seajs.use("/static/js/init.js", function(init) {
+    $(function() {
+      $('.carousel').carousel({
+        interval: 5000
+      });
+    });
+  });
+  </script>
+-->
+</body>
+</html>
+
+{{end}}

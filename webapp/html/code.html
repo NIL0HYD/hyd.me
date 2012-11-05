@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Code</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/google-code-prettify/prettify.css" rel="stylesheet">
+    <script type="text/javascript" src="/static/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript" src="/static/js/jquery-1.8.1.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function(){
+	     $("pre").addClass("prettyprint linenums");
+	     prettyPrint();
+		})
+	</script>
+	<style type="text/css">
+		body {
+			margin: 20px 0;
+		}
+	</style>
+  </head>
+<body>
+<div class="container">
+<pre>
+class Voila {
+public:
+  // Voila
+  static const string VOILA = "Voila";
+
+  // will not interfere with embedded tags.
+}
+</pre>
+<pre>
+// 登录验证
+func LoginAuthHandler(rw http.ResponseWriter, req *http.Request) {
+
+	//vars := mux.Vars(req)
+	//name := vars["name"]
+
+	email := req.FormValue("email")
+	password := req.FormValue("password")
+
+	fmt.Print(password)
+
+	// 根据用户名获取用户基本信息
+	result := service.GetUser(email)
+	session, _ := store.Get(req, "webapp")
+	session.Values["profile"] = result
+	session.Save(req, rw)
+
+	tpl := template.Must(template.ParseFiles("html/index.html"))
+	tpl.Execute(rw, session.Values["profile"])
+}
+
+// Markdown editer
+func MdeditorHandler(rw http.ResponseWriter, req *http.Request) {
+	tpl := template.Must(template.ParseFiles("html/mdeditor.html"))
+	tpl.Execute(rw, nil)
+}
+
+// google-code-prettify
+func CodePrettifyHandler(rw http.ResponseWriter, req *http.Request) {
+	tpl := template.Must(template.ParseFiles("html/code.html"))
+	tpl.Execute(rw, nil)
+}
+</pre>
+</div>
+</body>
+</html>

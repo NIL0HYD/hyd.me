@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>js_静态方法与非静态方法</title>
+<script type="text/javascript" src="/static/jquery-1.8.1.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	/** 静态方法 */
+	var Person = {
+		/** 静态属性 */
+		name: 'hyd',
+		email: 'yuandong.huang@gmail.com',
+		/** 静态方法 */
+		info: function () {
+			$('#output').empty().html(this.name + ": " + this.email);
+		}
+	};
+	/** 添加静态属性 */
+	Person.qq = '176458203';
+	/** 添加静态方法 */
+	Person.getqq = function () {
+		$('#output').append(" QQ: " + Person.qq);
+	};
+	Person.info();
+	Person.getqq();
+
+	/** 使用extend关键字扩展 , 依赖jQuery*/
+	$.extend(Person, {
+		sex: 'male',
+		getSex: function () {
+			$('#output').append(" Sex: " + this.sex);
+		}
+	});
+
+	Person.getSex();
+
+
+	/** 非静态方法 */
+	function Developer (name) {
+		this.name = name;
+		this.info = function () {
+			$('#output').append(" You: " + this.name);
+		};
+	}
+	/** 添加非静态属性 */
+	Developer.prototype.language = 'JAVA';
+	/** 添加非静态方法 */
+	Developer.prototype.getLanguage = function () {
+		$('#output').append(" language: " + this.language);
+	};
+
+	var me = new Developer('yuandong.huang');
+	me.info();
+	$('#output').append(" language: " + me.language);
+	me.getLanguage();
+
+	/** 使用extend关键字扩展 , 依赖jQuery*/
+	$.fn.extend({
+		myName: 'yuandong.huang@gmail.com',
+		myMethod: function () {
+			$(this).append(' \n$.fn.extend');
+		}
+	});
+	$('#output').myMethod();
+	if ($.fn.myName) {
+		$.fn.myName = 'huangyuandong';
+		alert($.fn.myName);
+	}
+
+	/**  */
+	$.fn.extend({
+		hyd: {
+			defaults: {name: 'hyd'},
+			methods: {}
+		}
+	});
+
+	$.fn.hyd.methods = {
+		getHydName: function () {
+			alert($.fn.hyd.defaults.name);
+		}
+	};
+
+	$.fn.hyd.methods.getHydName();
+});
+</script>
+</head>
+<body>
+<div id="output"></div>
+</body>
+</html>
