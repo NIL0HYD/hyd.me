@@ -1,9 +1,9 @@
 package myinfo
 
 const (
-	name  = "黄远董"
-	email = "yuandong.huang@gmail.com"
-	qq    = "176458203"
+	name  = "Mr. Huang"
+	email = "xxxx@gmail.com"
+	qq    = "1234546778"
 )
 
 func GetName() string {
