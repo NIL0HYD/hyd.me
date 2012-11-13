@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"Intn	int ƒ"
+			],
+			[
+				"u",
+				"Unix	int64 ƒ"
+			],
+			[
+				"s",
+				"Second	 Ɩ"
+			],
+			[
+				"Int",
+				"Intn	int ƒ"
+			],
+			[
+				"fu",
+				"func main	func main {...} ʂ"
+			],
+			[
 				"re",
 				"require"
 			],
@@ -40,10 +60,6 @@
 				"typeOfT	reflect.Type ν"
 			],
 			[
-				"in",
-				"Interface	i interface{} ƒ"
-			],
-			[
 				"i",
 				"Interface	i interface{} ƒ"
 			],
@@ -66,10 +82,6 @@
 			[
 				"m",
 				"margin: ${1001:$SELECTION};"
-			],
-			[
-				"s",
-				"SessionStart	session session.Session ƒ"
 			],
 			[
 				"g",
@@ -204,10 +216,6 @@
 				"package main	package main ʂ"
 			],
 			[
-				"fu",
-				"func	func{...}() ʂ"
-			],
-			[
 				"So",
 				"Sorter	interface ¡"
 			],
@@ -281,6 +289,15 @@
 	},
 	"file_history":
 	[
+		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
+		"/F/Google/gopath/src/hyd.me/demo/panic/panic.go",
+		"/F/Google/gopath/src/hyd.me/demo/panic/p.go",
+		"/F/notebook/preface.md",
+		"/F/notebook/错误与异常.md",
+		"/F/Google/gopath/src/hyd.me/demo/math/rand.go",
+		"/F/notebook/seajs_learning.md",
+		"/F/Google/gopath/src/hyd.me/demo/crypto/rand.go",
+		"/F/Google/gopath/src/hyd.me/demo/runtime/rt.go",
 		"/F/Google/gopath/src/hyd.me/webapp/static/js/bootstrap/bootstrap.js",
 		"/F/Google/gopath/src/hyd.me/webapp/static/js/jquery-1.8.1.seajs.min.js",
 		"/F/Google/gopath/src/hyd.me/seajs-demo/index.html",
@@ -325,9 +342,7 @@
 		"/F/Google/gopath/src/hyd.me/js-module-pattern/js_test/js_静态方法、非静态方法_2.txt",
 		"/F/Google/gopath/src/hyd.me/js-module-pattern/static/jquery-1.8.2.js",
 		"/F/Google/gopath/src/hyd.me/gowiki/wiki.go",
-		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
 		"/F/Google/gopath/src/hyd.me/js-module-pattern/main",
-		"/F/Google/gopath/src/hyd.me/demo/panic/p.go",
 		"/F/Google/gopath/src/hyd.me/demo/string/c.go",
 		"/F/go.md",
 		"/F/Google/gopath/src/hyd.me/demo/reflect/de.go",
@@ -336,7 +351,6 @@
 		"/F/Google/gopath/src/hyd.me/gowiki/hyd.txt",
 		"/F/Google/gopath/src/hyd.me/webapp/controller/controller.go",
 		"/F/Google/gopath/src/hyd.me/webapp/controller/upload.go",
-		"/F/Google/gopath/src/hyd.me/demo/runtime/rt.go",
 		"/F/Google/gopath/src/hyd.me/demo/runtime/rt.g",
 		"/F/Google/gopath/src/hyd.me/demo/reflect/r.go",
 		"/F/Google/gopath/src/hyd.me/demo/reflect/type.go",
@@ -389,7 +403,6 @@
 		"/F/Google/gopath/src/github.com/astaxie/session/README.md",
 		"/D/workspace/Junit4/src/hyd/stu/junit4/SumItems.java",
 		"/D/workspace/Junit4/bin/hyd/stu/junit4/SumItems.class",
-		"/F/Google/gopath/src/hyd.me/demo/panic/panic.go",
 		"/F/Google/gopath/src/hyd.me/demo/mix/panic.go",
 		"/F/Google/gopath/src/hyd.me/webapp/entity/entity.go",
 		"/F/Google/gopath/src/github.com/astaxie/session/session.go",
@@ -403,12 +416,7 @@
 		"/F/Google/gopath/src/hyd.me/demo/http/index.html",
 		"/F/Google/gopath/src/hyd.me/demo/http/generate_cert.go",
 		"/F/Google/gopath/src/hyd.me/demo/http/https.go",
-		"/F/Google/gopath/src/hyd.me/demo/http/cert.pem",
-		"/F/Google/gopath/src/hyd.me/demo/http/key.pem",
-		"/F/Google/go/src/pkg/crypto/tls/generate_cert.go",
-		"/C/Users/Administrator/Desktop/nathansmith-jQuery-Desktop-f1addcc/assets/javascripts/jquery.desktop.js",
-		"/C/Users/Administrator/Desktop/nathansmith-jQuery-Desktop-f1addcc/assets/javascripts/jquery.package.js",
-		"/C/Users/Administrator/Desktop/nathansmith-jQuery-Desktop-f1addcc/_jQD.tmproj"
+		"/F/Google/gopath/src/hyd.me/demo/http/cert.pem"
 	],
 	"find":
 	{
@@ -428,6 +436,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"	\n",
 			"window.jQuery",
 			"tab",
 			"Y",
