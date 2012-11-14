@@ -1,0 +1,252 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"ses",
+				"sess	session.Session ν"
+			],
+			[
+				"s",
+				"StatusFound	 Ɩ"
+			],
+			[
+				"f",
+				"FormValue	string ƒ"
+			],
+			[
+				"h",
+				"HandleFunc	 ƒ"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"fi",
+				"FileServer	http.Handler ƒ"
+			],
+			[
+				"st",
+				"Stdout	*os.File ν"
+			],
+			[
+				"pr",
+				"Print	 ƒ"
+			],
+			[
+				"fun",
+				"func http handler	func(rw, req) ʂ"
+			],
+			[
+				"imp",
+				"import	import (...) ʂ"
+			],
+			[
+				"pa",
+				"package main	package main ʂ"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Toggle Comment"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 228.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/E/notebook/preface.md",
+		"/C/Users/yuandong/Desktop/新建文本文档.txt",
+		"/E/notebook/工作流之自我见.md",
+		"/C/Users/yuandong/.ssh/id_rsa.pub",
+		"/C/Users/yuandong/.ssh/known_hosts",
+		"/C/Users/yuandong/Desktop/dns.md",
+		"/C/Users/yuandong/Desktop/config.bin",
+		"/E/Google/gopath/src/hyd.me/service/doc.go",
+		"/E/notes.txt",
+		"/E/Dev-doc/rr_ftp.txt",
+		"/E/Dev-doc/How To Design A Good API and Why it Matters.md",
+		"/E/Dev-doc/常用命令.txt",
+		"/E/Dev-doc/How To Design A Good API and Why it Matters.txt",
+		"/E/Dev-doc/常用命令.md",
+		"/E/Google/gopath/src/hyd.me/demo/crypto/md5.go",
+		"/E/Google/gopath/src/hyd.me/webapp/html/footer.html",
+		"/E/Google/gopath/src/hyd.me/web/main.go",
+		"/E/Google/gopath/src/hyd.me/webapp/main.go",
+		"/E/新建文本文档.txt",
+		"/E/Google/gopath/src/hyd.me/webapp/html/index.html",
+		"/E/Google/gopath/src/hyd.me/demo/g.go",
+		"/E/Dev-tool/springsource/apache-maven-3.0.4/conf/settings.xml",
+		"/E/Dev-tool/jdk_conf.txt",
+		"/C/Users/yuandong/AppData/Roaming/Sublime Text 2/Packages/User/GoSublime.sublime-settings",
+		"/E/Google/gopath/src/github.com/astaxie/session/session.go",
+		"/E/Google/gopath/src/github.com/astaxie/session/providers/memory/memory.go",
+		"/C/Users/yuandong/AppData/Roaming/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings",
+		"/E/Dev-tool/mysql-5.5.15-win32/README",
+		"/E/Google/gopath/src/hyd.me/demo/tmpl/tmpl.go",
+		"/E/Google/gopath/src/hyd.me/demo/tmpl/header.tmpl",
+		"/E/Google/gopath/src/hyd.me/demo/tmpl/content.tmpl",
+		"/E/Google/gopath/src/hyd.me/demo/tmpl/footer.tmpl",
+		"/E/Google/gopath/src/hyd.me/demo/xml/readxml.go",
+		"/E/Google/gopath/src/hyd.me/demo/xml/writexml.go",
+		"/E/Google/gopath/src/hyd.me/demo/tmpl/t.go",
+		"/E/Google/gopath/src/hyd.me/demo/xml/servers.xml",
+		"/E/Google/gopath/src/hyd.me/demo/xml",
+		"/E/Google/gopath/src/hyd.me/webapp/log.md",
+		"/C/Users/Lockstd/Desktop/twitter-bootstrap-c52368d/docs/examples/hero.html",
+		"/F/TDDOWNLOAD/RCT424AVI/EE750439CB5860A448EBF4A28E878B50C1214744.torrent",
+		"/C/Users/Lockstd/AppData/Roaming/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"5",
+			"<img src=\"/static/img/glyphicons-halflings-white.png\" alt=\"png\">"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true
+}

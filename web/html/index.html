@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>NIL.HYD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="description" content="Let's have fun!"> -->
+    <meta name="author" content="yuandong.huang@gmail.com; nil0hyd;">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      /** 页面上下留空间 */
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+
+
+      #bold-content {
+        border: 1px red solid;
+        border-radius: 10px; /* CSS3 Property */  
+        -moz-border-radius: 10px;  /* Firefox */  
+        -webkit-border-radius: 10px; /* Chrome/Safari */  
+        -khtml-border-radius: 10px; /* Linux browsers */
+
+        -moz-box-shadow: 5px 3px 3px #ccc;  
+        -webkit-box-shadow: 5px 3px 3px #ccc;  
+        box-shadow: 5px 3px 3px #ccc;   
+      }
+
+      #circle {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background: red;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+      }
+
+      #circle:hover {
+        background: green;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- 如果已登录，则显示用户信息-->
+            {{if .}}
+            <div class="nav pull-right">
+            	<span class="label label-info">{{.}}, 已登录!</span>
+            	<a href="/logout">注销</a>
+            </div>
+            <!-- 如果没登录，则显示登录表单-->
+            {{else}}
+           	<form class="navbar-form pull-right" method="post" action="/login">
+              <input class="span2" type="text" name="email" placeholder="Email">
+              <input class="span2" type="password" name="password" placeholder="Password">
+              <button type="submit" class="btn">Sign in</button>
+            </form>
+            {{end}}
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="bold-content">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>You need anything, you say anything!</h1>
+        <p>
+        	Over-thinking leads to negative thoughts. ------ 想得太多，过度思考，会变得很消极。
+        </p>
+        <p>
+        	有时候，思考过多，困惑越多，烦恼更多！让自己想一想自己快乐的事，自己就会慢慢的转移注意力，那样就不会再心烦了。遇顺境，处之淡然，遇逆境，处之泰然。 是非天天有，不听自然无。 身安不如心安，屋宽不如心宽。闭上眼睛，默默祈祷，每一个向我一样被情绪困扰的人，开开心心，快快乐乐。
+        </p>
+        <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+
+        <!-- 形状 -->
+        <a id="circle" href="http://www.weibo.com"></a>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+       </div>
+        <div class="span4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- js -->
+    <script src="/static/js/jquery-1.8.2.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+  </body>
+</html>

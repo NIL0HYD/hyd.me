@@ -9,14 +9,18 @@ import (
 )
 
 func main() {
-	salt()
+	//salt()
+
+	normal()
 }
 
 func normal() {
 	h := md5.New()
-	h.Write([]byte("HuangYuanDong"))
+	h.Write([]byte("404 Pages"))
 	fmt.Printf("%x \n", h.Sum(nil))
 	//9ee3 2fbc 5704 75f6 11d9 7078 c482 7fa4
+	//6dcd 4d36 fd97 ba5f 119c 000d 6be9 3439
+	//a87ff679a2f3e71d9181a67b7542122c
 
 	h = sha256.New()
 	io.WriteString(h, "His money is twice tainted: 'taint yours and 'taint mine.")
