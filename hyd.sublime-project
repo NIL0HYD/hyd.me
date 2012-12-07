@@ -1,8 +1,11 @@
 {
-	"folders":
-	[
-		{
-			"path": "/E/Google/gopath/src/hyd.me"
-		}
-	]
+    "folders": [
+        {
+            "path": "/E/Google/gopath/src/hyd.me"
+        }
+    ], 
+    "settings": {
+        "go_project": true, 
+        "name": "sss"
+    }
 }

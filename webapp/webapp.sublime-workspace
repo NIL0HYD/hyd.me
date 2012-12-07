@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fu",
+				"func http handler	func(rw, req) ʂ"
+			],
+			[
 				"in",
 				"Intn	int ƒ"
 			],
@@ -18,10 +22,6 @@
 			[
 				"Int",
 				"Intn	int ƒ"
-			],
-			[
-				"fu",
-				"func main	func main {...} ʂ"
 			],
 			[
 				"re",
@@ -252,7 +252,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 58.0,
 		"selected_items":
 		[
 			[
@@ -272,7 +272,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 416.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -289,6 +289,14 @@
 	},
 	"file_history":
 	[
+		"/F/Google/gopath/src/hyd.me/html5/1.html",
+		"/F/Google/gopath/src/hyd.me/html5/a.html",
+		"/F/Google/gopath/src/hyd.me/html5/inline.html",
+		"/F/Google/gopath/src/hyd.me/html5/interactive.html",
+		"/F/Google/gopath/src/hyd.me/html5/form.html",
+		"/F/Google/gopath/src/hyd.me/webapp/main.go",
+		"/F/Google/gopath/src/hyd.me/webapp/controller/controller.go",
+		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
 		"/F/Google/gopath/src/hyd.me/webapp/html/login.html",
 		"/F/Google/gopath/src/hyd.me/web/hrr.html",
 		"/F/Google/gopath/src/hyd.me/web/html/index.html",
@@ -301,7 +309,6 @@
 		"/F/Google/gopath/src/hyd.me/demo/testm/new_test.go",
 		"/F/Google/gopath/src/hyd.me/demo/testm/README.md",
 		"/F/Google/gopath/src/hyd.me/demo/string/c.go",
-		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
 		"/F/Google/gopath/src/hyd.me/demo/panic/panic.go",
 		"/F/Google/gopath/src/hyd.me/demo/panic/p.go",
 		"/F/notebook/preface.md",
@@ -360,7 +367,6 @@
 		"/F/Google/gopath/src/hyd.me/gowiki/html/edit.html",
 		"/F/Google/gopath/src/hyd.me/gowiki/html/view.html",
 		"/F/Google/gopath/src/hyd.me/gowiki/hyd.txt",
-		"/F/Google/gopath/src/hyd.me/webapp/controller/controller.go",
 		"/F/Google/gopath/src/hyd.me/webapp/controller/upload.go",
 		"/F/Google/gopath/src/hyd.me/demo/runtime/rt.g",
 		"/F/Google/gopath/src/hyd.me/demo/reflect/r.go",
@@ -410,13 +416,7 @@
 		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/less/reset.less",
 		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/less/bootstrap.less",
 		"/F/Google/gopath/src/github.com/astaxie/session/README.md",
-		"/D/workspace/Junit4/src/hyd/stu/junit4/SumItems.java",
-		"/D/workspace/Junit4/bin/hyd/stu/junit4/SumItems.class",
-		"/F/Google/gopath/src/hyd.me/demo/mix/panic.go",
-		"/F/Google/gopath/src/hyd.me/webapp/entity/entity.go",
-		"/F/Google/gopath/src/github.com/astaxie/session/session.go",
-		"/F/Google/gopath/src/github.com/astaxie/session/providers/memory/memory.go",
-		"/F/Google/gopath/src/labix.org/v2/mgo/auth_test.go"
+		"/D/workspace/Junit4/src/hyd/stu/junit4/SumItems.java"
 	],
 	"find":
 	{
@@ -424,7 +424,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"<open files>",
@@ -436,6 +436,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" ",
+			"<",
 			"    <link href=\"/static/css/bootstrap.min.css\" rel=\"stylesheet\">",
 			"	\n",
 			"window.jQuery",
@@ -488,11 +490,13 @@
 			"web"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"<",
 			"$"
 		],
 		"reverse": true,
