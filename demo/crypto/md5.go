@@ -9,9 +9,9 @@ import (
 )
 
 func main() {
+	salt2()
 	//salt()
-
-	normal()
+	//normal()
 }
 
 func normal() {
@@ -56,4 +56,16 @@ func salt() {
 
 	last := fmt.Sprintf("%x", h.Sum(nil))
 	fmt.Println(last)
+}
+
+func salt2() {
+	//import "crypto/md5"
+	//假设用户名abc，密码123456
+	h := md5.New()
+	io.WriteString(h, "1{sysadmin}")
+
+	//pwmd5等于5536484b09fdfa322c70338849bcff11
+	pwmd5 := fmt.Sprintf("%x", h.Sum(nil))
+
+	fmt.Println(pwmd5)
 }
