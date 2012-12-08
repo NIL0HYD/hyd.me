@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"G",
+				"Google"
+			],
+			[
+				"fu",
+				"func http handler	func(rw, req) ʂ"
+			],
+			[
 				"p",
 				"Println	n int, err error ƒ"
 			],
@@ -65,13 +73,10 @@
 			]
 		]
 	},
-	"buffers":
-	[
-	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 54.0,
 		"selected_items":
 		[
 			[
@@ -87,7 +92,7 @@
 				"Toggle Comment"
 			]
 		],
-		"width": 400.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -104,48 +109,10 @@
 	},
 	"file_history":
 	[
-		"/C/Windows/System32/Drivers/etc/hosts",
-		"/E/notebook/preface.md",
-		"/C/Users/yuandong/Desktop/新建文本文档.txt",
-		"/E/notebook/工作流之自我见.md",
-		"/C/Users/yuandong/.ssh/id_rsa.pub",
-		"/C/Users/yuandong/.ssh/known_hosts",
-		"/C/Users/yuandong/Desktop/dns.md",
-		"/C/Users/yuandong/Desktop/config.bin",
-		"/E/Google/gopath/src/hyd.me/service/doc.go",
-		"/E/notes.txt",
-		"/E/Dev-doc/rr_ftp.txt",
-		"/E/Dev-doc/How To Design A Good API and Why it Matters.md",
-		"/E/Dev-doc/常用命令.txt",
-		"/E/Dev-doc/How To Design A Good API and Why it Matters.txt",
-		"/E/Dev-doc/常用命令.md",
-		"/E/Google/gopath/src/hyd.me/demo/crypto/md5.go",
-		"/E/Google/gopath/src/hyd.me/webapp/html/footer.html",
-		"/E/Google/gopath/src/hyd.me/web/main.go",
-		"/E/Google/gopath/src/hyd.me/webapp/main.go",
-		"/E/新建文本文档.txt",
-		"/E/Google/gopath/src/hyd.me/webapp/html/index.html",
-		"/E/Google/gopath/src/hyd.me/demo/g.go",
-		"/E/Dev-tool/springsource/apache-maven-3.0.4/conf/settings.xml",
-		"/E/Dev-tool/jdk_conf.txt",
-		"/C/Users/yuandong/AppData/Roaming/Sublime Text 2/Packages/User/GoSublime.sublime-settings",
-		"/E/Google/gopath/src/github.com/astaxie/session/session.go",
-		"/E/Google/gopath/src/github.com/astaxie/session/providers/memory/memory.go",
-		"/C/Users/yuandong/AppData/Roaming/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings",
-		"/E/Dev-tool/mysql-5.5.15-win32/README",
-		"/E/Google/gopath/src/hyd.me/demo/tmpl/tmpl.go",
-		"/E/Google/gopath/src/hyd.me/demo/tmpl/header.tmpl",
-		"/E/Google/gopath/src/hyd.me/demo/tmpl/content.tmpl",
-		"/E/Google/gopath/src/hyd.me/demo/tmpl/footer.tmpl",
-		"/E/Google/gopath/src/hyd.me/demo/xml/readxml.go",
-		"/E/Google/gopath/src/hyd.me/demo/xml/writexml.go",
-		"/E/Google/gopath/src/hyd.me/demo/tmpl/t.go",
-		"/E/Google/gopath/src/hyd.me/demo/xml/servers.xml",
-		"/E/Google/gopath/src/hyd.me/demo/xml",
-		"/E/Google/gopath/src/hyd.me/webapp/log.md",
-		"/C/Users/Lockstd/Desktop/twitter-bootstrap-c52368d/docs/examples/hero.html",
-		"/F/TDDOWNLOAD/RCT424AVI/EE750439CB5860A448EBF4A28E878B50C1214744.torrent",
-		"/C/Users/Lockstd/AppData/Roaming/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings"
+		"/home/nilo/.config/sublime-text-2/Packages/User/GoSublime.sublime-settings",
+		"/home/nilo/.config/sublime-text-2/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/nilo/Google/gopath/src/hyd.me/webapp/main.go",
+		"/home/nilo/Google/gopath/src/hyd.me/README.md"
 	],
 	"find":
 	{
@@ -179,14 +146,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"sheets":
-			[
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 35.0
@@ -218,6 +177,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.GsDepends-output":
+	{
+		"height": 118.0
+	},
 	"output.exec":
 	{
 		"height": 150.0
