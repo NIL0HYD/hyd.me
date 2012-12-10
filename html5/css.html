@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>css</title>
+	<style type="text/css">
+	div {
+		border: 1px solid #ff0000;
+	}
+
+	div {
+        position: absolute;
+        left: 2in;
+        top: 2in;
+      }
+	</style>
+</head>
+<body>
+<!--
+定位方案
+
+有三种定位方案：
+
+普通：根据对象在文档中的位置进行定位，也就是说对象在呈现树中的位置和它在 DOM 树中的位置相似，并根据其框类型和尺寸进行布局。
+
+浮动：对象先按照普通流进行布局，然后尽可能地向左或向右移动。
+
+绝对：对象在呈现树中的位置和它在 DOM 树中的位置不同。
+定位方案是由“position”属性和“loat”属性设置的。
+
+如果值是 static 和 relative，就是普通流
+如果值是 absolute 和 fixed，就是绝对定位
+
+static 定位无需定义位置，而是使用默认定位。对于其他方案，网页作者需要指定位置：top、bottom、left、right。
+框的布局方式是由以下因素决定的：
+
+框类型
+框尺寸
+定位方案
+外部信息，例如图片大小和屏幕大小
+
+
+框类型
+
+block 框：形成一个 block，在浏览器窗口中拥有其自己的矩形区域。
+inline 框：没有自己的 block，但是位于容器 block 内。
+block 采用的是一个接一个的垂直格式，而 inline 采用的是水平格式。
+inline 框放置在行中或“行框”中。这些行至少和最高的框一样高，还可以更高，当框根据“底线”对齐时，这意味着元素的底部需要根据其他框中非底部的位置对齐。如果容器的宽度不够，inline 元素就会分为多行放置。在段落中经常发生这种情况。
+
+定位
+9.5.1 相对
+
+相对定位relative：先按照普通方式定位，然后根据所需偏移量进行移动。
+
+浮动float
+
+浮动框会移动到行的左边或右边。有趣的特征在于，其他框会浮动在它的周围。
+
+绝对定位和固定定位absolute&fixed
+
+这种布局是准确定义的，与普通流无关。元素不参与普通流。尺寸是相对于`容器`而言的。在固定定位中，容器就是可视区域。
+
+请注意，即使在文档滚动时，固定框fixed也不会移动。
+
+分层展示
+这是由 z-index CSS 属性指定的。它代表了框的第三个维度，也就是沿“z 轴”方向的位置。
+
+这些框分散到多个堆栈（称为堆栈上下文）中。在每一个堆栈中，会首先绘制后面的元素，然后在顶部绘制前面的元素，以便更靠近用户。如果出现重叠，新绘制的元素就会覆盖之前的元素。 
+堆栈是按照 z-index 属性进行排序的。具有“z-index”属性的框形成了本地堆栈。视口具有外部堆栈。
+-->
+
+<p>
+   <img style="float:right;" src="css.png" width="100" height="100">
+  Lorem ipsum dolor sit amet, consectetuer...
+  Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...
+</p>
+
+
+<p>
+   <img style="float:right" src="css.png" width="100" height="100">
+  Lorem ipsum dolor sit amet, consectetuer...
+  Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...
+</p>
+
+
+<p>
+   <img style="float:right" src="css.png" width="100" height="100">
+  Lorem ipsum dolor sit amet, consectetuer...
+  Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...
+</p>
+
+
+
+<p>
+   <img style="float:right" src="css.png" width="100" height="100">
+  Lorem ipsum dolor sit amet, consectetuer...
+  Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...
+</p>
+
+
+<p>
+   <img style="float:right" src="css.png" width="100" height="100">
+  Lorem ipsum dolor sit amet, consectetuer...
+  Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...
+</p>
+
+
+
+<p>
+   <img style="float:right" src="css.png" width="100" height="100">
+  Lorem ipsum dolor sit amet, consectetuer...
+  Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...Lorem ipsum dolor sit amet, consectetuer...
+</p>
+
+
+<div style="position:fixed;top:5px;left:5px;">
+	<span>1</span>
+	<span>2</span>
+	<span>3</span>
+</div>
+
+<p>
+    <div style="z-index: 3;background-color:red; width: 1in; height: 1in; ">
+    </div>
+    <div style="z-index: 1;background-color:green;width: 2in; height: 2in;">
+    </div>
+ </p>
+
+</body>
+</html>
