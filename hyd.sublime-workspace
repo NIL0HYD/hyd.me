@@ -289,6 +289,8 @@
 	},
 	"file_history":
 	[
+		"/F/Google/gopath/src/hyd.me/demo/string/train.go",
+		"/F/Google/gopath/src/hyd.me/html5/1.html",
 		"/F/Google/gopath/src/hyd.me/webapp/controller/controller.go",
 		"/F/Google/gopath/src/hyd.me/webapp/controller/upload.go",
 		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
@@ -300,7 +302,6 @@
 		"/F/Google/gopath/src/hyd.me/js-module-pattern/convertRMB/jquery.convertRMB.js",
 		"/F/Google/gopath/src/hyd.me/.gitignore",
 		"/F/Google/gopath/src/hyd.me/html5/interactive.html",
-		"/F/Google/gopath/src/hyd.me/html5/1.html",
 		"/F/Google/gopath/src/hyd.me/html5/a.html",
 		"/F/Google/gopath/src/hyd.me/html5/inline.html",
 		"/F/Google/gopath/src/hyd.me/html5/form.html",
@@ -415,8 +416,7 @@
 		"/F/Google/gopath/src/hyd.me/webapp/service/service.go",
 		"/F/Google/gopath/src/hyd.me/webapp/html/header.tmpl",
 		"/F/Google/gopath/src/hyd.me/webapp/html/footer.tmpl",
-		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/less/variables.less",
-		"/F/Google/gopath/src/hyd.me/webapp/html/code.html"
+		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/less/variables.less"
 	],
 	"find":
 	{
@@ -490,7 +490,7 @@
 			"web"
 		],
 		"highlight": true,
-		"in_selection": true,
+		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
