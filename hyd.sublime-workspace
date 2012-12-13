@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"d",
+				"D	 ƒ"
+			],
+			[
+				"fun",
+				"func	func {...} ʂ"
+			],
+			[
 				"fu",
 				"func http handler	func(rw, req) ʂ"
 			],
@@ -30,10 +42,6 @@
 			[
 				"expr",
 				"exports"
-			],
-			[
-				"fun",
-				"function"
 			],
 			[
 				"pro",
@@ -66,10 +74,6 @@
 			[
 				"k",
 				"Kind	reflect.Kind ƒ"
-			],
-			[
-				"p",
-				"Println	n int, err error ƒ"
 			],
 			[
 				"im",
@@ -114,10 +118,6 @@
 			[
 				"r",
 				"RemoteAddr	string ν"
-			],
-			[
-				"d",
-				"Dir	string ʈ"
 			],
 			[
 				"l",
@@ -289,14 +289,22 @@
 	},
 	"file_history":
 	[
+		"/F/Google/gopath/src/hyd.me/webapp/controller/controller.go",
+		"/F/Google/gopath/src/hyd.me/webapp/controller/upload.go",
+		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
+		"/F/Google/gopath/src/hyd.me/webapp/entity/entity.go",
+		"/F/Google/gopath/src/hyd.me/webapp/html/mdeditor.html",
+		"/F/Google/gopath/src/hyd.me/webapp/html/header.html",
+		"/F/Google/gopath/src/hyd.me/webapp/html/footer.html",
+		"/F/Google/gopath/src/hyd.me/demo/crypto/rand.go",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/convertRMB/jquery.convertRMB.js",
+		"/F/Google/gopath/src/hyd.me/.gitignore",
 		"/F/Google/gopath/src/hyd.me/html5/interactive.html",
 		"/F/Google/gopath/src/hyd.me/html5/1.html",
 		"/F/Google/gopath/src/hyd.me/html5/a.html",
 		"/F/Google/gopath/src/hyd.me/html5/inline.html",
 		"/F/Google/gopath/src/hyd.me/html5/form.html",
 		"/F/Google/gopath/src/hyd.me/webapp/main.go",
-		"/F/Google/gopath/src/hyd.me/webapp/controller/controller.go",
-		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
 		"/F/Google/gopath/src/hyd.me/webapp/html/login.html",
 		"/F/Google/gopath/src/hyd.me/web/hrr.html",
 		"/F/Google/gopath/src/hyd.me/web/html/index.html",
@@ -315,7 +323,6 @@
 		"/F/notebook/错误与异常.md",
 		"/F/Google/gopath/src/hyd.me/demo/math/rand.go",
 		"/F/notebook/seajs_learning.md",
-		"/F/Google/gopath/src/hyd.me/demo/crypto/rand.go",
 		"/F/Google/gopath/src/hyd.me/demo/runtime/rt.go",
 		"/F/Google/gopath/src/hyd.me/webapp/static/js/bootstrap/bootstrap.js",
 		"/F/Google/gopath/src/hyd.me/webapp/static/js/jquery-1.8.1.seajs.min.js",
@@ -342,7 +349,6 @@
 		"/F/Google/gopath/src/hyd.me/jquery-require-sample/webapp/scripts/jquery.beta.js",
 		"/F/Google/gopath/src/hyd.me/jquery-require-sample/webapp-build/app.html",
 		"/F/Google/gopath/src/hyd.me/jquery-require-sample/webapp-build/scripts/app.build.js",
-		"/F/Google/gopath/src/hyd.me/js-module-pattern/convertRMB/jquery.convertRMB.js",
 		"/F/Google/gopath/src/hyd.me/demo/slice/slice_test.go",
 		"/F/Google/gopath/src/hyd.me/demo/slice/map_test.go",
 		"/F/Google/gopath/src/hyd.me/js-module-pattern/index.html",
@@ -367,7 +373,6 @@
 		"/F/Google/gopath/src/hyd.me/gowiki/html/edit.html",
 		"/F/Google/gopath/src/hyd.me/gowiki/html/view.html",
 		"/F/Google/gopath/src/hyd.me/gowiki/hyd.txt",
-		"/F/Google/gopath/src/hyd.me/webapp/controller/upload.go",
 		"/F/Google/gopath/src/hyd.me/demo/runtime/rt.g",
 		"/F/Google/gopath/src/hyd.me/demo/reflect/r.go",
 		"/F/Google/gopath/src/hyd.me/demo/reflect/type.go",
@@ -411,12 +416,7 @@
 		"/F/Google/gopath/src/hyd.me/webapp/html/header.tmpl",
 		"/F/Google/gopath/src/hyd.me/webapp/html/footer.tmpl",
 		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/less/variables.less",
-		"/F/Google/gopath/src/hyd.me/webapp/html/mdeditor.html",
-		"/F/Google/gopath/src/hyd.me/webapp/html/code.html",
-		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/less/reset.less",
-		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/less/bootstrap.less",
-		"/F/Google/gopath/src/github.com/astaxie/session/README.md",
-		"/D/workspace/Junit4/src/hyd/stu/junit4/SumItems.java"
+		"/F/Google/gopath/src/hyd.me/webapp/html/code.html"
 	],
 	"find":
 	{
@@ -554,6 +554,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"rand",
+				"demo/crypto/rand.go"
+			],
 			[
 				"us",
 				"webapp/static/js/test/usecase.js"
