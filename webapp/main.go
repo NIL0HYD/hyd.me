@@ -26,7 +26,7 @@ func main() {
 		r.HandleFunc(url, handler)
 	}
 	http.Handle("/", r)
-	err := http.ListenAndServe(":8080", nil)
+	err := http.ListenAndServe(":8088", nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
