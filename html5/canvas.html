@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>CANVAS</title>
+	<script>
+		function draw() {
+			var canvas = document.getElementById('my-first-canvas');
+			var context = canvas.getContext('2d');
+			context.fillRect(0, 0, 150, 100);  
+			context.strokeStyle = '#990000'; 
+			context.strokeRect(20,30,100,50);
+		}
+	</script>
+</head>
+<body onload="draw();">
+	<canvas id="my-first-canvas" width="360" height="240">
+		<!--If you put anything between the opening and closing tags,
+			only browsers that don’t support canvas will see it-->
+		<p>
+			No canvas support? Have an old-fashioned imageinstead:
+		</p>
+		<img src="css.png" alt="a cute puppy" />
+	</canvas>
+</body>
+</html>

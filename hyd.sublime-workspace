@@ -289,6 +289,7 @@
 	},
 	"file_history":
 	[
+		"/F/Google/gopath/src/hyd.me/demo/math/t.go",
 		"/F/Google/gopath/src/hyd.me/demo/string/train.go",
 		"/F/Google/gopath/src/hyd.me/html5/1.html",
 		"/F/Google/gopath/src/hyd.me/webapp/controller/controller.go",
@@ -415,8 +416,7 @@
 		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/docs/examples/hero.html",
 		"/F/Google/gopath/src/hyd.me/webapp/service/service.go",
 		"/F/Google/gopath/src/hyd.me/webapp/html/header.tmpl",
-		"/F/Google/gopath/src/hyd.me/webapp/html/footer.tmpl",
-		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/less/variables.less"
+		"/F/Google/gopath/src/hyd.me/webapp/html/footer.tmpl"
 	],
 	"find":
 	{
