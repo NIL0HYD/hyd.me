@@ -4,7 +4,19 @@
 		"selected_items":
 		[
 			[
+<<<<<<< HEAD
 				"fu",
+=======
+				"p",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"d",
+				"D	 ƒ"
+			],
+			[
+				"fun",
+>>>>>>> b3515fdd00ab914c72c2aa7bce1a0c1750c62c2f
 				"func	func {...} ʂ"
 			],
 			[
@@ -16,6 +28,7 @@
 				"Sqrt2	 Ɩ"
 			],
 			[
+<<<<<<< HEAD
 				"p",
 				"Printf	n int, err error ƒ"
 			],
@@ -30,57 +43,249 @@
 			[
 				"G",
 				"Google"
+=======
+				"in",
+				"Intn	int ƒ"
+>>>>>>> b3515fdd00ab914c72c2aa7bce1a0c1750c62c2f
 			],
 			[
-				"bl",
-				"inline-block"
+				"u",
+				"Unix	int64 ƒ"
 			],
 			[
-				"d",
-				"display"
+				"s",
+				"Second	 Ɩ"
 			],
 			[
-				"bore",
-				"border"
+				"Int",
+				"Intn	int ƒ"
 			],
 			[
-				"ses",
-				"sess	session.Session ν"
+				"re",
+				"require"
 			],
 			[
+<<<<<<< HEAD
 				"h",
 				"HandleFunc	 ƒ"
+=======
+				"expr",
+				"exports"
 			],
 			[
-				"font",
-				"font-family"
+				"pro",
+				"prototype"
 			],
 			[
-				"fi",
-				"FileServer	http.Handler ƒ"
+				"a",
+				"alert"
 			],
 			[
-				"st",
-				"Stdout	*os.File ν"
+				"each",
+				"$.each	$.each"
+			],
+			[
+				"c",
+				"cim"
+			],
+			[
+				"t",
+				"Type	reflect.Type ν"
+			],
+			[
+				"ty",
+				"typeOfT	reflect.Type ν"
+			],
+			[
+				"i",
+				"Interface	i interface{} ƒ"
+			],
+			[
+				"k",
+				"Kind	reflect.Kind ƒ"
+			],
+			[
+				"im",
+				"imt	import junit.framework.TestCase;"
+			],
+			[
+				"e",
+				"ExecuteTemplate	error ƒ"
+			],
+			[
+				"m",
+				"margin: ${1001:$SELECTION};"
+			],
+			[
+				"g",
+				"globalSessions	*session.Manager ν"
+			],
+			[
+				"err",
+				"ErrFlase	error ν"
+			],
+			[
+				"pa",
+				"package main	package main ʂ"
+			],
+			[
+				"statusF",
+				"StatusFound	 Ɩ"
+			],
+			[
+				"ser",
+				"serv	service.Service ν"
 			],
 			[
 				"pr",
 				"Print	 ƒ"
 			],
 			[
+				"func",
+				"func	Function"
+			],
+			[
+				"r",
+				"RemoteAddr	string ν"
+			],
+			[
+				"l",
+				"Len	int ƒ"
+			],
+			[
+				"w",
+				"writeString	 ƒ"
+			],
+			[
+				"jso",
+				"jsonStyle	 ƒ"
+			],
+			[
+				"se",
+				"seq	chan int ν"
+			],
+			[
+				"f",
+				"FormValue	string ƒ"
+			],
+			[
+				"sess",
+				"session	*sessions.Session ν"
+>>>>>>> b3515fdd00ab914c72c2aa7bce1a0c1750c62c2f
+			],
+			[
+				"ses",
+				"session	*sessions.Session ν"
+			],
+			[
+				"no",
+				"NotFoundHandler	http.Handler ƒ"
+			],
+			[
+				"statusno",
+				"StatusNotFound	 Ɩ"
+			],
+			[
+				"sta",
+				"StatusGone	 Ɩ"
+			],
+			[
+				"st",
+				"StatusText	string ƒ"
+			],
+			[
+				"main",
+				"func main	func main {...} ʂ"
+			],
+			[
+<<<<<<< HEAD
+=======
+				"di",
+				"div"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"h",
+				"HandleFunc	 ƒ"
+			],
+			[
+				"F",
+				"FileServer	http.Handler ƒ"
+			],
+			[
+>>>>>>> b3515fdd00ab914c72c2aa7bce1a0c1750c62c2f
 				"imp",
 				"import	import (...) ʂ"
 			],
 			[
-				"pa",
+				"ex",
+				"execTemp	 ƒ"
+			],
+			[
+				"T",
+				"template	 package ρ"
+			],
+			[
+				"sp",
+				"Sprintf	string ƒ"
+			],
+			[
+				"v",
+				"ValueOf	reflect.Value ƒ"
+			],
+			[
+				"std",
+				"Stdout	*os.File ν"
+			],
+			[
+				"n",
+				"NewWriter	*bufio.Writer ƒ"
+			],
+			[
+				"pag",
 				"package main	package main ʂ"
+			],
+			[
+				"So",
+				"Sorter	interface ¡"
+			],
+			[
+				"inst",
+				"intSorter	IntSorter ν"
+			],
+			[
+				"fuc",
+				"func	func {...} ʂ"
+			],
+			[
+				"go",
+				"go2	 ƒ"
+			],
+			[
+				"xml",
+				"xmlstr	 ν"
+			],
+			[
+				"W",
+				"WriteString	n int, err error ƒ"
+			],
+			[
+				"P",
+				"Println	n int, err error ƒ"
+			],
+			[
+				"h4",
+				"h4	Tag"
 			]
 		]
 	},
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 54.0,
+		"height": 58.0,
 		"selected_items":
 		[
 			[
@@ -88,19 +293,23 @@
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
-				"Package Control: Install Package"
+				"set",
+				"Set Syntax: SQL"
 			],
 			[
-				"",
-				"Toggle Comment"
+				"margo",
+				"GoSublime: Share (on play.golang.org)"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 575.0
+		"width": 512.0
 	},
 	"console":
 	{
-		"height": 228.0
+		"height": 153.0
 	},
 	"distraction_free":
 	{
@@ -113,6 +322,7 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/home/nilo/Google/gopath/src/hyd.me/algorithm/3.go",
 		"/home/nilo/Google/gopath/src/hyd.me/algorithm/1.go",
 		"/home/nilo/Google/gopath/src/hyd.me/algorithm/2.go",
@@ -121,6 +331,136 @@
 		"/home/nilo/.config/sublime-text-2/Packages/GoSublime/GoSublime.sublime-settings",
 		"/home/nilo/Google/gopath/src/hyd.me/webapp/main.go",
 		"/home/nilo/Google/gopath/src/hyd.me/README.md"
+=======
+		"/F/Google/gopath/src/hyd.me/demo/math/t.go",
+		"/F/Google/gopath/src/hyd.me/demo/string/train.go",
+		"/F/Google/gopath/src/hyd.me/html5/1.html",
+		"/F/Google/gopath/src/hyd.me/webapp/controller/controller.go",
+		"/F/Google/gopath/src/hyd.me/webapp/controller/upload.go",
+		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
+		"/F/Google/gopath/src/hyd.me/webapp/entity/entity.go",
+		"/F/Google/gopath/src/hyd.me/webapp/html/mdeditor.html",
+		"/F/Google/gopath/src/hyd.me/webapp/html/header.html",
+		"/F/Google/gopath/src/hyd.me/webapp/html/footer.html",
+		"/F/Google/gopath/src/hyd.me/demo/crypto/rand.go",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/convertRMB/jquery.convertRMB.js",
+		"/F/Google/gopath/src/hyd.me/.gitignore",
+		"/F/Google/gopath/src/hyd.me/html5/interactive.html",
+		"/F/Google/gopath/src/hyd.me/html5/a.html",
+		"/F/Google/gopath/src/hyd.me/html5/inline.html",
+		"/F/Google/gopath/src/hyd.me/html5/form.html",
+		"/F/Google/gopath/src/hyd.me/webapp/main.go",
+		"/F/Google/gopath/src/hyd.me/webapp/html/login.html",
+		"/F/Google/gopath/src/hyd.me/web/hrr.html",
+		"/F/Google/gopath/src/hyd.me/web/html/index.html",
+		"/F/Google/gopath/src/hyd.me/demo/testm/pressure_test/webbench_test.go",
+		"/F/Google/gopath/src/hyd.me/demo/testm/pressure_test/div.go",
+		"/F/notebook/Golang错误与异常.md",
+		"/F/Google/gopath/src/hyd.me/demo/testm/webbench_test.go",
+		"/F/Google/gopath/src/hyd.me/demo/testm/div.go",
+		"/F/Google/gopath/src/hyd.me/demo/string/str.go",
+		"/F/Google/gopath/src/hyd.me/demo/testm/new_test.go",
+		"/F/Google/gopath/src/hyd.me/demo/testm/README.md",
+		"/F/Google/gopath/src/hyd.me/demo/string/c.go",
+		"/F/Google/gopath/src/hyd.me/demo/panic/panic.go",
+		"/F/Google/gopath/src/hyd.me/demo/panic/p.go",
+		"/F/notebook/preface.md",
+		"/F/notebook/错误与异常.md",
+		"/F/Google/gopath/src/hyd.me/demo/math/rand.go",
+		"/F/notebook/seajs_learning.md",
+		"/F/Google/gopath/src/hyd.me/demo/runtime/rt.go",
+		"/F/Google/gopath/src/hyd.me/webapp/static/js/bootstrap/bootstrap.js",
+		"/F/Google/gopath/src/hyd.me/webapp/static/js/jquery-1.8.1.seajs.min.js",
+		"/F/Google/gopath/src/hyd.me/seajs-demo/index.html",
+		"/F/Google/gopath/src/hyd.me/seajs-demo/init.js",
+		"/F/Google/gopath/src/hyd.me/webapp/static/js/bootstrap/bootstrap-transition.js",
+		"/F/Google/gopath/src/hyd.me/webapp/static/js/bootstrap/bootstrap-carousel.js",
+		"/F/Google/gopath/src/hyd.me/webapp/static/js/bootstrap/bootstrap-tab.js",
+		"/F/Google/gopath/src/hyd.me/webapp/static/js/bootstrap/bootstrap.min.js",
+		"/F/Google/gopath/src/hyd.me/webapp/static/js/bootstrap/bootstrap-modal.js",
+		"/F/Google/gopath/src/hyd.me/seajs/README.md",
+		"/F/Google/gopath/src/hyd.me/seajs-demo/data.js",
+		"/F/Google/gopath/src/hyd.me/seajs-demo/style.css",
+		"/F/Google/gopath/src/hyd.me/seajs/index.html",
+		"/F/Google/gopath/src/hyd.me/seajs/jquery.js",
+		"/F/Google/gopath/src/hyd.me/seajs/module1.js",
+		"/F/Google/gopath/src/hyd.me/seajs/init.js",
+		"/F/Google/gopath/src/hyd.me/seajs/module2.js",
+		"/F/Google/gopath/src/hyd.me/seajs/module3.js",
+		"/F/Google/gopath/src/hyd.me/seajs/module4.js",
+		"/F/Google/gopath/src/hyd.me/jquery-require-sample/webapp/app.html",
+		"/F/Google/gopath/src/hyd.me/jquery-require-sample/webapp/scripts/main.js",
+		"/F/Google/gopath/src/hyd.me/jquery-require-sample/webapp/scripts/jquery.alpha.js",
+		"/F/Google/gopath/src/hyd.me/jquery-require-sample/webapp/scripts/jquery.beta.js",
+		"/F/Google/gopath/src/hyd.me/jquery-require-sample/webapp-build/app.html",
+		"/F/Google/gopath/src/hyd.me/jquery-require-sample/webapp-build/scripts/app.build.js",
+		"/F/Google/gopath/src/hyd.me/demo/slice/slice_test.go",
+		"/F/Google/gopath/src/hyd.me/demo/slice/map_test.go",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/index.html",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/static/jWindow.js",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/main.go",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/convertRMB/convertRMB.html",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/static/jMore.js",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/jsmethods/js_methods.md",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/js_test/js_methods.md",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/js_test/js_oo.html",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/js_test/js_静态方法、非静态方法.md",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/js_test/js_静态方法、非静态方法_2.md",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/js_test/$.extend() and $.fn.extend() confusion.md",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/convertRMB.html",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/static/jquery.convertRMB.js",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/js_test/js_静态方法、非静态方法_2.txt",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/static/jquery-1.8.2.js",
+		"/F/Google/gopath/src/hyd.me/gowiki/wiki.go",
+		"/F/Google/gopath/src/hyd.me/js-module-pattern/main",
+		"/F/go.md",
+		"/F/Google/gopath/src/hyd.me/demo/reflect/de.go",
+		"/F/Google/gopath/src/hyd.me/gowiki/html/edit.html",
+		"/F/Google/gopath/src/hyd.me/gowiki/html/view.html",
+		"/F/Google/gopath/src/hyd.me/gowiki/hyd.txt",
+		"/F/Google/gopath/src/hyd.me/demo/runtime/rt.g",
+		"/F/Google/gopath/src/hyd.me/demo/reflect/r.go",
+		"/F/Google/gopath/src/hyd.me/demo/reflect/type.go",
+		"/F/Google/gopath/src/hyd.me/demo/reflect/ref.go",
+		"/F/Google/gopath/src/hyd.me/demo/reflect/v.go",
+		"/F/Google/gopath/src/hyd.me/demo/reflect/ref1.go",
+		"/F/Google/gopath/src/hyd.me/demo/mix/f2.go",
+		"/F/Google/gopath/src/hyd.me/demo/mix/f1.go",
+		"/F/Google/gopath/src/hyd.me/demo/mix/fpath.go",
+		"/F/Google/gopath/src/hyd.me/demo/mix/r.go",
+		"/F/Google/gopath/src/hyd.me/service/doc.go",
+		"/F/Google/gopath/src/hyd.me/service/service_test.go",
+		"/F/Google/go/src/pkg/encoding/csv/reader_test.go",
+		"/F/Google/go/src/pkg/encoding/csv/writer_test.go",
+		"/F/Google/go/src/pkg/reflect/tostring_test.go",
+		"/F/Google/go/src/pkg/log/log.go",
+		"/F/Google/go/src/pkg/log/log_test.go",
+		"/F/Google/go/src/pkg/log/syslog/syslog.go",
+		"/F/Google/go/src/pkg/log/syslog/syslog_windows.go",
+		"/F/Google/go/src/pkg/reflect/all_test.go",
+		"/F/Google/go/src/pkg/reflect/set_test.go",
+		"/F/Google/go/pkg/tool/windows_386/pprof",
+		"/F/Google/gopath/src/hyd.me/demo/net/ip.go",
+		"/F/Google/gopath/src/github.com/drone/routes/routes.go",
+		"/F/Google/go/src/pkg/html/template/css_test.go",
+		"/F/Google/go/src/pkg/html/entity_test.go",
+		"/F/Google/go/src/pkg/html/template/html_test.go",
+		"/F/Google/go/src/pkg/encoding/json/tags_test.go",
+		"/F/Google/go/src/pkg/encoding/json/tagkey_test.go",
+		"/F/Google/go/src/pkg/encoding/base64/base64_test.go",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/GoSublime.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings",
+		"/F/Perl/h.pl",
+		"/F/Google/gopath/src/hyd.me/webapp/H.java",
+		"/F/Google/gopath/src/hyd.me/serviceProvider/doc.go",
+		"/F/Google/gopath/src/hyd.me/service/service.go",
+		"/F/Google/gopath/src/hyd.me/service/provider/provider.go",
+		"/E/!important/java_eclipse注释规范设置.txt",
+		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/docs/examples/hero.html",
+		"/F/Google/gopath/src/hyd.me/webapp/service/service.go",
+		"/F/Google/gopath/src/hyd.me/webapp/html/header.tmpl",
+		"/F/Google/gopath/src/hyd.me/webapp/html/footer.tmpl"
+>>>>>>> b3515fdd00ab914c72c2aa7bce1a0c1750c62c2f
 	],
 	"find":
 	{
@@ -131,6 +471,8 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"<open files>",
+			""
 		]
 	},
 	"find_state":
@@ -138,15 +480,68 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"5",
-			"<img src=\"/static/img/glyphicons-halflings-white.png\" alt=\"png\">"
+			" ",
+			"<",
+			"    <link href=\"/static/css/bootstrap.min.css\" rel=\"stylesheet\">",
+			"	\n",
+			"window.jQuery",
+			"tab",
+			"Y",
+			"  \n",
+			"document",
+			"0",
+			"en",
+			"			\n",
+			"saveHandler",
+			"reflect",
+			"h1",
+			"header",
+			"string",
+			"(\"/\"))",
+			"o",
+			"out",
+			"          \n",
+			"bs-docs-sidebar",
+			"session",
+			"\"",
+			"\"\n",
+			"A",
+			"\"\n",
+			"\"A\"\n\"B\"\n\"C\"\n\"D\"",
+			"D",
+			"C",
+			"B",
+			"A",
+			"\"A\"\n\"B\"\n\"C\"",
+			"\"",
+			"\"\n",
+			"C",
+			"B",
+			"A",
+			"C",
+			"B",
+			"A",
+			"javascript",
+			"{\n",
+			"default",
+			"save",
+			"AuthHandler",
+			"root",
+			"handleFile",
+			"scgi",
+			"reflect",
+			"\"\n",
+			"web"
 		],
-		"highlight": false,
+		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"<",
+			"$"
 		],
 		"reverse": true,
 		"show_context": true,
@@ -160,7 +555,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -187,11 +582,15 @@
 	"menu_visible": true,
 	"output.GsDepends-output":
 	{
-		"height": 118.0
+		"height": 124.0
 	},
 	"output.exec":
 	{
+<<<<<<< HEAD
 		"height": 148.0
+=======
+		"height": 215.0
+>>>>>>> b3515fdd00ab914c72c2aa7bce1a0c1750c62c2f
 	},
 	"replace":
 	{
@@ -203,6 +602,26 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"rand",
+				"demo/crypto/rand.go"
+			],
+			[
+				"us",
+				"webapp/static/js/test/usecase.js"
+			],
+			[
+				"re",
+				"webapp/README.md"
+			],
+			[
+				"main",
+				"webapp/main.go"
+			],
+			[
+				"",
+				"msg/README.md"
+			]
 		],
 		"width": 0.0
 	},
@@ -211,6 +630,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/F/Google/gopath/src/hyd.me/msg/msg.sublime-project"
+			]
 		],
 		"width": 380.0
 	},
@@ -218,6 +641,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 209.0,
+	"side_bar_width": 236.0,
 	"status_bar_visible": true
 }
