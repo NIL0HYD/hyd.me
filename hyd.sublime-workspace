@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
-				"G",
-				"Google"
+				"fu",
+				"func	func {...} ʂ"
 			],
 			[
-				"fu",
-				"func http handler	func(rw, req) ʂ"
+				"fun",
+				"func	func {...} ʂ"
+			],
+			[
+				"s",
+				"Sqrt2	 Ɩ"
 			],
 			[
 				"p",
-				"Println	n int, err error ƒ"
+				"Printf	n int, err error ƒ"
+			],
+			[
+				"i",
+				"isshushu	bool ƒ"
+			],
+			[
+				"f",
+				"func	func {...} ʂ"
+			],
+			[
+				"G",
+				"Google"
 			],
 			[
 				"bl",
@@ -30,14 +46,6 @@
 			[
 				"ses",
 				"sess	session.Session ν"
-			],
-			[
-				"s",
-				"StatusFound	 Ɩ"
-			],
-			[
-				"f",
-				"FormValue	string ƒ"
 			],
 			[
 				"h",
@@ -58,10 +66,6 @@
 			[
 				"pr",
 				"Print	 ƒ"
-			],
-			[
-				"fun",
-				"func http handler	func(rw, req) ʂ"
 			],
 			[
 				"imp",
@@ -109,6 +113,10 @@
 	},
 	"file_history":
 	[
+		"/home/nilo/Google/gopath/src/hyd.me/algorithm/3.go",
+		"/home/nilo/Google/gopath/src/hyd.me/algorithm/1.go",
+		"/home/nilo/Google/gopath/src/hyd.me/algorithm/2.go",
+		"/home/nilo/Google/gopath/src/hyd.me/hyd.sublime-project",
 		"/home/nilo/.config/sublime-text-2/Packages/User/GoSublime.sublime-settings",
 		"/home/nilo/.config/sublime-text-2/Packages/GoSublime/GoSublime.sublime-settings",
 		"/home/nilo/Google/gopath/src/hyd.me/webapp/main.go",
@@ -183,7 +191,7 @@
 	},
 	"output.exec":
 	{
-		"height": 150.0
+		"height": 148.0
 	},
 	"replace":
 	{
