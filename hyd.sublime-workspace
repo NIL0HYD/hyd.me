@@ -8,6 +8,30 @@
 				"Println	n int, err error ƒ"
 			],
 			[
+				"re",
+				"ReadAll	[]byte, error ƒ"
+			],
+			[
+				"err",
+				"err2	error ν"
+			],
+			[
+				"c",
+				"Close	error ƒ"
+			],
+			[
+				"wr",
+				"writeString	 ƒ"
+			],
+			[
+				"f",
+				"Fprintf	n int, err error ƒ"
+			],
+			[
+				"min",
+				"func main	func main {...} ʂ"
+			],
+			[
 				"d",
 				"D	 ƒ"
 			],
@@ -36,10 +60,6 @@
 				"Intn	int ƒ"
 			],
 			[
-				"re",
-				"require"
-			],
-			[
 				"expr",
 				"exports"
 			],
@@ -54,10 +74,6 @@
 			[
 				"each",
 				"$.each	$.each"
-			],
-			[
-				"c",
-				"cim"
 			],
 			[
 				"t",
@@ -90,10 +106,6 @@
 			[
 				"g",
 				"globalSessions	*session.Manager ν"
-			],
-			[
-				"err",
-				"ErrFlase	error ν"
 			],
 			[
 				"pa",
@@ -134,10 +146,6 @@
 			[
 				"se",
 				"seq	chan int ν"
-			],
-			[
-				"f",
-				"FormValue	string ƒ"
 			],
 			[
 				"sess",
@@ -252,7 +260,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 380.0,
 		"selected_items":
 		[
 			[
@@ -289,12 +297,33 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/GoSublime/CHANGELOG.md",
+		"/F/Google/gopath/src/hyd.me/demo/io/build.go",
+		"/F/Google/gopath/src/hyd.me/demo/io/f2.go",
+		"/F/Google/gopath/src/hyd.me/demo/io/f1.go",
+		"/F/Google/gopath/src/hyd.me/html5/1.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/zen-coding.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/zen-coding.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Default.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Preferences.sublime-settings",
+		"/F/Google/gopath/src/hyd.me/webapp/html/login.html",
+		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
+		"/F/Google/gopath/src/hyd.me/web/main.go",
+		"/F/notebook/preface.md",
+		"/F/notebook/articles/html.md",
+		"/F/notebook/articles/OOP的理解.md",
+		"/F/Google/gopath/src/hyd.me/html5/content.html",
+		"/F/Google/gopath/src/hyd.me/html5/canvas.html",
+		"/F/Google/gopath/src/hyd.me/html5/stru.html",
+		"/F/Google/gopath/src/hyd.me/html5/inline.html",
+		"/F/Google/gopath/src/hyd.me/html5/video.html",
+		"/F/Google/Apps/nf-goplayer-0693ece/index.html",
+		"/F/Google/Apps/nf-goplayer-0693ece/player.go",
 		"/F/Google/gopath/src/hyd.me/demo/math/t.go",
 		"/F/Google/gopath/src/hyd.me/demo/string/train.go",
-		"/F/Google/gopath/src/hyd.me/html5/1.html",
 		"/F/Google/gopath/src/hyd.me/webapp/controller/controller.go",
 		"/F/Google/gopath/src/hyd.me/webapp/controller/upload.go",
-		"/F/Google/gopath/src/hyd.me/webapp/html/index.html",
 		"/F/Google/gopath/src/hyd.me/webapp/entity/entity.go",
 		"/F/Google/gopath/src/hyd.me/webapp/html/mdeditor.html",
 		"/F/Google/gopath/src/hyd.me/webapp/html/header.html",
@@ -304,10 +333,8 @@
 		"/F/Google/gopath/src/hyd.me/.gitignore",
 		"/F/Google/gopath/src/hyd.me/html5/interactive.html",
 		"/F/Google/gopath/src/hyd.me/html5/a.html",
-		"/F/Google/gopath/src/hyd.me/html5/inline.html",
 		"/F/Google/gopath/src/hyd.me/html5/form.html",
 		"/F/Google/gopath/src/hyd.me/webapp/main.go",
-		"/F/Google/gopath/src/hyd.me/webapp/html/login.html",
 		"/F/Google/gopath/src/hyd.me/web/hrr.html",
 		"/F/Google/gopath/src/hyd.me/web/html/index.html",
 		"/F/Google/gopath/src/hyd.me/demo/testm/pressure_test/webbench_test.go",
@@ -321,7 +348,6 @@
 		"/F/Google/gopath/src/hyd.me/demo/string/c.go",
 		"/F/Google/gopath/src/hyd.me/demo/panic/panic.go",
 		"/F/Google/gopath/src/hyd.me/demo/panic/p.go",
-		"/F/notebook/preface.md",
 		"/F/notebook/错误与异常.md",
 		"/F/Google/gopath/src/hyd.me/demo/math/rand.go",
 		"/F/notebook/seajs_learning.md",
@@ -398,25 +424,7 @@
 		"/F/Google/go/src/pkg/reflect/set_test.go",
 		"/F/Google/go/pkg/tool/windows_386/pprof",
 		"/F/Google/gopath/src/hyd.me/demo/net/ip.go",
-		"/F/Google/gopath/src/github.com/drone/routes/routes.go",
-		"/F/Google/go/src/pkg/html/template/css_test.go",
-		"/F/Google/go/src/pkg/html/entity_test.go",
-		"/F/Google/go/src/pkg/html/template/html_test.go",
-		"/F/Google/go/src/pkg/encoding/json/tags_test.go",
-		"/F/Google/go/src/pkg/encoding/json/tagkey_test.go",
-		"/F/Google/go/src/pkg/encoding/base64/base64_test.go",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/GoSublime.sublime-settings",
-		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/GoSublime/GoSublime.sublime-settings",
-		"/F/Perl/h.pl",
-		"/F/Google/gopath/src/hyd.me/webapp/H.java",
-		"/F/Google/gopath/src/hyd.me/serviceProvider/doc.go",
-		"/F/Google/gopath/src/hyd.me/service/service.go",
-		"/F/Google/gopath/src/hyd.me/service/provider/provider.go",
-		"/E/!important/java_eclipse注释规范设置.txt",
-		"/C/Users/Administrator/Desktop/twitter-bootstrap-320b75d/docs/examples/hero.html",
-		"/F/Google/gopath/src/hyd.me/webapp/service/service.go",
-		"/F/Google/gopath/src/hyd.me/webapp/html/header.tmpl",
-		"/F/Google/gopath/src/hyd.me/webapp/html/footer.tmpl"
+		"/F/Google/gopath/src/github.com/drone/routes/routes.go"
 	],
 	"find":
 	{
@@ -436,6 +444,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"		\n",
 			" ",
 			"<",
 			"    <link href=\"/static/css/bootstrap.min.css\" rel=\"stylesheet\">",
@@ -542,7 +551,7 @@
 	},
 	"output.exec":
 	{
-		"height": 215.0
+		"height": 164.0
 	},
 	"replace":
 	{
