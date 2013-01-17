@@ -7,6 +7,7 @@ import (
 /*
 从个性（实现）再到一般性（抽象），这是一个归纳的过程，这符合人类对世界的认识。
 http://monnand.me/p/ready-go-1/zhCN/
+http://monnand.me/p/ready-go-2/zhCN/
 */
 
 type Duck struct {
