@@ -27,7 +27,8 @@ func getDB() (db *sql.DB) {
 
 func main() {
 	//Select()
-	Update()
+	//Update()
+	Insert()
 	Select()
 }
 
@@ -69,5 +70,29 @@ func Update() {
 		log.Print(err)
 	} else {
 		log.Printf("[INS]Affected rows=%d", a)
+	}
+}
+
+func Insert() {
+	db := getDB()
+	defer db.Close()
+
+	job := Job{}
+	job.Code = "101010"
+	job.Name = "Test"
+	job.Level = 1
+	job.Office = 1
+	job.Order = 3
+
+	stmt, err := db.Prepare("insert into org_job(code, name, office, parent, level, duty, `order`) values(?, ?, ?, ?, ?, ?, ?)")
+	if err != nil {
+		log.Fatal(err)
+		return
+	}
+	defer stmt.Close()
+	rslt, err := stmt.Exec(job.Code, job.Name, job.Office, job.Parent, job.Level, job.Duty, job.Order)
+	if _, err := rslt.RowsAffected(); err != nil {
+		log.Fatal(err)
+		return
 	}
 }
