@@ -48,7 +48,6 @@ func Select() {
 			&job.Duty, &job.Order)
 		if err != nil {
 			log.Fatal(err)
-			return
 		}
 		log.Printf("[ROWS]key=%v, value=%v, level=%v ", job.Id, job.Code, job.Level)
 	}
@@ -61,7 +60,6 @@ func Update() {
 	stmt, err := db.Prepare("update org_job set level=? where id=?")
 	if err != nil {
 		log.Fatal(err)
-		return
 	}
 	defer stmt.Close()
 
@@ -87,12 +85,10 @@ func Insert() {
 	stmt, err := db.Prepare("insert into org_job(code, name, office, parent, level, duty, `order`) values(?, ?, ?, ?, ?, ?, ?)")
 	if err != nil {
 		log.Fatal(err)
-		return
 	}
 	defer stmt.Close()
 	rslt, err := stmt.Exec(job.Code, job.Name, job.Office, job.Parent, job.Level, job.Duty, job.Order)
 	if _, err := rslt.RowsAffected(); err != nil {
 		log.Fatal(err)
-		return
 	}
 }
